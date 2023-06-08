@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="64.394" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="Contact Us" name="Validate user navigates to contact us page" time="9.872">
+<system-out><![CDATA[
+Given Chrome is opened and opencart app is launched.........................passed
+Then User navigates onto landing page.......................................passed
+When User clicks on resources and selects contact us........................passed
+And User clicks on contact us...............................................passed
+Then User navigates on ContactUs page.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Contact Us" name="Validate  contact us page GUI" time="9.945">
+<system-out><![CDATA[
+Given Chrome is opened and opencart app is launched.........................passed
+Then User navigates onto landing page and able to see logo..................passed
+When User clicks on resources and selects contact us........................passed
+And User clicks on contact us...............................................passed
+Then User navigates on ContactUs page and see text..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Contact Us" name="Validate  contact us page Functionality" time="44.56">
+<system-out><![CDATA[
+Given Chrome is opened and opencart app is launched.........................passed
+Then User navigates onto landing page.......................................passed
+When User clicks on resources and selects contact us........................passed
+And User clicks on contact us...............................................passed
+Then User navigates on ContactUs page.......................................passed
+When User selects option from dropdown list.................................passed
+And user enters name "John" and Emailid "test123@gmail.com".................passed
+And User enters "Unable to login to account" in Message.....................passed
+And User selects the captcha................................................passed
+And User clicks on Send Message button......................................passed
+Then Contact Us form should be submitted....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

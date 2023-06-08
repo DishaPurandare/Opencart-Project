@@ -1,0 +1,110 @@
+ReadMe file for cucumber framework with excel:
+ 
+--------------------------------------------------------------------------------------------------
+Project structure:
+ 
+src/main/java:
+    com.config:
+        Config.properties
+
+    com.pages:
+        LandingPage.java
+        ContactUsPage.java
+        SuccessPage.java
+
+    com.testdata:
+        testdata.xlsx    
+
+    com.utility:
+        Config.java
+        ConfigReader.java
+        ExcelReader.java
+        ExtentReportManager.java
+        Utility.java
+
+src/test/java:
+    com.apphooks:
+        ApplicationHooks.java
+
+    com.contactuspage_stepdefinitions_1:
+        ContactUsPageSteps_1.java
+        
+    com.contactuspage_stepdefinitions_2:
+    	ContactUsPageSteps_2.java  
+    	
+    com.contactuspage_stepdefinitions_3:
+    	ContactUsPageSteps_3.java	  
+
+    com.testrunner:
+        ContactUsPage_TestRunner_1.java
+        ContactUsPage_TestRunner_2.java
+        ContactUsPage_TestRunner_3.java  
+
+src/main/resources:
+    ReadMe
+
+src/test/resources:
+    features folder
+       ContactUs_1.feature
+       ContactUs_2.feature
+       ContactUs_3.feature
+    testng.xml        
+ 
+drivers folder:
+    chromedriver.exe
+
+screenshots folder:
+    file.png    
+ 
+cucumber_report folder:
+    cucumber.html
+    cucumber.json
+    cucumber.xml
+
+extent_reports:
+    file.html
+
+pom.xml            
+--------------------------------------------------------------------------------------------------
+Project creation sequence:
+ 
+Create maven project
+Add the dependencies in pom.xml
+Maven project will have 4 sections by default(if not then create them):
+    src/main/java
+    src/main/resources
+    src/test/java
+    src/test/resources
+ 
+Create the required packages, classes, files in them as per below sequence:
+ 
+Step 1 --> Create Feature file
+Step 2 --> Create testdata.xlsx
+Step 3 --> Create Config.java
+Step 4 --> Create Config.properties
+Step 5 --> Create ConfigReader.java
+Step 6 --> Create ExtentReportManager.java
+Step 7 --> Create Utility.java
+Step 8 --> Create ExcelReader.java
+Step 9 --> Create LandingPage.java
+Step 10 --> Create ContactUsPage.java
+Step 11 --> Create ContactUsPage.java
+Step 12 --> Create ApplicationHooks.java
+Step 13 --> Create ContactUsPageSteps_1.java
+Step 14 --> Create ContactUsPageSteps_2.java
+Step 15 --> Create ContactUsPageSteps_3.java
+Step 16 --> Create ContactUsPage_TestRunner_1.java
+Step 17 --> Create ContactUsPage_TestRunner_2.java 
+Step 18 --> Create ContactUsPage_TestRunner_3.java
+Step 19 --> Create testng.xml
+ 
+
+Create the drivers folder and keep driver in it
+Create the screenshots folder to keep screenshots in it
+Run the tests by using Test class(individual test class) or testng.xml(all test classes) or pom.xml
+ 
+
+See the reports in test-output folder(created by testng)
+See the reports in target folder(created by maven)
+See the reports in cucumber_report folder(created by cucumber)
+See the reports in extent_reports folder(created by extentreport)

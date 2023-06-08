@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="LandingPage_TestRunner">
+	  <classes>
+		  <class name="testrunner.ContactUsPage_TestRunner_1.java"/>
+		  <class name="testrunner.ContactUsPage_TestRunner_2.java"/>
+		  <class name="testrunner.ContactUsPage_TestRunner_3.java"/>
+	  </classes>
+  </test> <!-- testng.xml -->
+</suite> <!-- Suite -->
