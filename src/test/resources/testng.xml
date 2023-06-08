@@ -3,9 +3,9 @@
 <suite name="Suite">
   <test thread-count="5" name="LandingPage_TestRunner">
 	  <classes>
-		  <class name="testrunner.ContactUsPage_TestRunner_1.java"/>
-		  <class name="testrunner.ContactUsPage_TestRunner_2.java"/>
-		  <class name="testrunner.ContactUsPage_TestRunner_3.java"/>
+		  <class name="testrunner.ContactUsPage_TestRunner_1"/>
+		  <class name="testrunner.ContactUsPage_TestRunner_2"/>
+		  <class name="testrunner.ContactUsPage_TestRunner_3"/>
 	  </classes>
   </test> <!-- testng.xml -->
 </suite> <!-- Suite -->
