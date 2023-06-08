@@ -73,18 +73,17 @@
 	</dependencies>
 	
 	<build>
-
 		<plugins>
-		<plugin>
-			<groupId>com.maven</groupId>
-			<artifactId>Opencart_project</artifactId>
-			<version>2.21.0</version>
-		  <configuration>
-			<suiteXmlFiles>
-				<suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
-			</suiteXmlFiles>
-		  </configuration>
-		</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.21.0</version>
+				<configuration>
+					<suiteXmlFiles>
+						<suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+					</suiteXmlFiles>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 	
