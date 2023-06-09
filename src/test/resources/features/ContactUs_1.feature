@@ -21,7 +21,7 @@ When User clicks on resources and selects contact us
 And  User clicks on contact us
 Then User navigates on ContactUs page
 When User selects option from dropdown list
-And user enters name "John" and Emailid "test123@gmail.com"
+And user enters name "John" and Emailid "test987@gmail.com"
 And User enters "Unable to login to account" in Message 
 And User selects the captcha 
 And User clicks on Send Message button 
