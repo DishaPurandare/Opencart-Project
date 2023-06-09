@@ -14,8 +14,8 @@ Scenario Outline: Verify Contact Us Functionality with valid data
 		Then Contact Us form should be submitted
 
 		Examples:
-         |Name		|Email						|   Message                 | 
-         |John    |test123@gmail.com		| Unable to login to account|
+         |Name		|Email				|   Message                 | 
+         |Nick         |test786@gmail.com		| Unable to login to account|
  
 Scenario Outline: Verify Contact Us Functionality with Invalid data
 		Given Chrome is opened and opencart app is launched
